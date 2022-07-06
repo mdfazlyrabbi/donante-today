@@ -73,14 +73,14 @@ h2{
     border: 2px solid tomato;
 }
 
-#section-2 input{
+#section-2 .amount{
 
     padding: 0px;
     border-width: 0 0 2px;
     border-color: #808080;
     width:55%;
     height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     outline: none;
     text-align: center;
 }
@@ -90,9 +90,12 @@ input::placeholder {
 .button-2 {
     background-color: rgb(243, 87, 59);
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: aliceblue;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+
     
 }
 /*########################### Donate Plans##########*/
@@ -138,4 +141,9 @@ input::placeholder {
 .flex-item p{
     color: #575757;
     font-size: 15px;
+}
+/*################ Update Section ########### */
+#update-section{
+    text-align: center;
+    margin-top: 100px;
 }
