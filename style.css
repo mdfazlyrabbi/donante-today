@@ -95,3 +95,47 @@ input::placeholder {
     border-radius: 5px;
     
 }
+/*########################### Donate Plans##########*/
+#plan-section{
+    margin-top: 120px;
+    
+}
+#plans-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#plans-flex-container{
+    display: flex;
+    max-width: 80%;
+   justify-content: space-between;
+   margin: auto;
+    
+}
+.flex-item{
+    padding: 20px 20px;
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 20px;
+    text-align: left;
+    
+    
+}
+
+#food{
+    background-color: rgb(232, 255, 255);
+    
+}
+#shelter {
+    background-color: rgba(255, 227, 232, 0.763);
+}
+#education {
+    background-color: rgb(253, 253, 229);
+}
+.flex-item img{
+    width: 50px; 
+}
+
+.flex-item p{
+    color: #575757;
+    font-size: 15px;
+}
