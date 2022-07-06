@@ -2,8 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
     margin: 0;
+
     
 }
+                                           /*########Header Section###########*/
 #header div{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -35,4 +37,62 @@ h1{
     font-family: 'Arima', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
+}
+                                        /*################### Section-2 ############# */
+#section-2{
+    padding-top: 100px;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+#section-2 p{
+    font-size: 20px;
+    color: #979696;
+}
+
+#amount-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 55%;
+    padding-top: 20px;
+    color: #575757;
+    font-size: 30px;
+
+}
+
+.baby-amount{
+    padding: 30px 15px;
+    background-color: #f1f1f18a;
+}
+
+#selected-amount{
+    background-color: rgb(255, 217, 210);
+    border: 2px solid tomato;
+}
+
+#section-2 input{
+
+    padding: 0px;
+    border-width: 0 0 2px;
+    border-color: #808080;
+    width:55%;
+    height: 50px;
+    margin-bottom: 50px;
+    outline: none;
+    text-align: center;
+    cursor:none;
+}
+input::placeholder {
+    text-align: center;
+}
+.button-2 {
+    background-color: rgb(243, 87, 59);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    border-radius: 5px;
+    
 }
