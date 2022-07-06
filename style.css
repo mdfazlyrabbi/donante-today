@@ -83,7 +83,6 @@ h2{
     margin-bottom: 50px;
     outline: none;
     text-align: center;
-    cursor:none;
 }
 input::placeholder {
     text-align: center;
