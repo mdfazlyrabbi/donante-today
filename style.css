@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    
+}
+#header div{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 175px 307px;
+}
+
+#header{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+        url(images/header.jpg);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-position: center;
+}
+ 
+h1{
+    font-size: 50px;
+}
+
+.button{
+    background-color:rgb(243, 87, 59);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.quote{
+    font-family: 'Arima', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
