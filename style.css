@@ -98,7 +98,7 @@ input::placeholder {
 
     
 }
-/*########################### Donate Plans##########*/
+                                                 /*################## Donate Plans##########*/
 #plan-section{
     margin-top: 120px;
     
@@ -132,7 +132,7 @@ input::placeholder {
     background-color: rgba(255, 227, 232, 0.763);
 }
 #education {
-    background-color: rgb(253, 253, 229);
+    background-color: lightgoldenrodyellow;
 }
 .flex-item img{
     width: 50px; 
@@ -142,8 +142,43 @@ input::placeholder {
     color: #575757;
     font-size: 15px;
 }
-/*################ Update Section ########### */
+                                          /*################ Update Section ########### */
 #update-section{
     text-align: center;
     margin-top: 100px;
 }
+
+.mail::placeholder{
+    text-align: left;
+    color: gray;
+}
+#update-section form{
+  background-color: lightyellow;
+  width: 50%;
+  display: inline-block;
+  height: 170px;
+}
+
+#update-section form input.mail{
+    width: 40%;
+    height: 43px;
+    border-top-left-radius: 7px ;
+    border-bottom-left-radius: 7px;
+    background-color: #e0dede;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+#update-section form input.subscribe {
+    margin-left: -7px;
+    background-color: rgb(243, 87, 59);
+    padding: 15px 15px;
+    color: aliceblue;
+    width: 150px;
+    border-style: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+                                                    /*################## Footer #########*/
